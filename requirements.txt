@@ -1,0 +1,22 @@
+# Python 3.14
+
+# --- LLM (Claude) ---
+anthropic>=1.2.0
+pydantic>=2.11
+pydantic-settings>=2.10
+
+# --- Market data ---
+ccxt>=4.4          # crypto exchanges (public OHLCV needs no API key)
+yfinance>=0.2.60   # stocks / ETFs via Yahoo Finance
+pandas>=2.3
+numpy>=2.1
+
+# --- ML strategy ---
+lightgbm>=4.6       # native API only: no scikit-learn needed
+
+# --- CLI / misc ---
+rich>=14.0
+python-dotenv>=1.1
+
+# --- Tests ---
+pytest>=8.4
